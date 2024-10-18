@@ -21,6 +21,12 @@ doctrine:
                 dir: '%kernel.project_dir%/src/EditorialLive/Domain'
                 prefix: 'ElConfidencial\EditorialLive\Domain'
                 alias: 'EditorialLive'
+            EditorialNews:
+                is_bundle: false
+                type: attribute
+                dir: '%kernel.project_dir%/src/EditorialNews/Domain'
+                prefix: 'ElConfidencial\EditorialNews\Domain'
+                alias: 'EditorialNews'
             Shared:
                 is_bundle: false
                 type: attribute
