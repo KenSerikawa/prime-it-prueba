@@ -1,0 +1,5 @@
+editorial_live:
+    resource:
+        path: ../src/EditorialLive/Infrastructure/Controller
+        namespace: ElConfidencial\EditorialLive\Infrastructure\Controller
+    type: attribute
